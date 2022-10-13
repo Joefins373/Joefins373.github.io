@@ -1,0 +1,525 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+.hrty{
+    margin-bottom: 80px !important;
+}
+
+.header-bg {
+    background-image: url(https://omusystems.com/wp-content/uploads/2022/09/header-bg.jpg);
+    background-attachment: scroll;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px 0px 0px;
+}
+
+.pagelayer-row, .pagelayer-col {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+.bg-overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    opacity: 0.6;
+    background-attachment: scroll;
+}
+
+.holder-box {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagelayer-col-holder {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.pagelayer-col-holder2 {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+}
+
+.header-dis {
+    display: flex;
+}
+
+.logo-col {
+    width: 35%;
+}
+
+.header-logo {
+    font-family: 'Teko';
+    text-align: left;
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 500 !important;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-col {
+    width: 65%;
+}
+
+.col-pad {
+    padding: 10px;
+    width: 100%;
+}
+
+ul {
+    float: right;
+    font-family: 'Poppins';
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 25px 0px;
+}
+
+  li {
+    letter-spacing: 1px;
+    float: left;
+    list-style: none;
+    color: white;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  li a:hover:not(.active) {
+    color: #670090;
+    transition: 0.5s;
+}
+  
+  .active {
+    background-color: #670090;
+}
+
+.box-header {
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+}
+
+.one {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    color: #ffffff;
+}
+
+h3 {
+    margin: 1px 0px;
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h1 {
+    margin: 1px 0px;
+    font-family: 'Nunito';
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.strip-holder {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+}
+
+.strip {
+    border-top-style: solid;
+    border-top-color: #670090;
+    border-top-width: 3px;
+    width: 10%;
+    display: inline-block;
+}
+
+p {
+    font-family: 'Poppins';
+    margin: 1px 0px;
+    font-weight: 500px;
+    font-size: 14px; 
+    line-height: 1.8;
+}
+
+.p-one {
+    max-width: 750px !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+}
+
+#wth {
+    color: #ffffff !important;
+}
+
+.border-but {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+button {
+    font-family: 'Poppins';
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #670090;
+    border-style: none;
+    padding: 12px 22px;
+    cursor: pointer;
+}
+
+main {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.main-layer {
+    margin: 80px 0px 0px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 1px 0px;
+}
+
+.box-main {
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.mini-box {
+    width: 33.33333%;
+    text-align: center;
+    float: left;
+}
+
+.image {
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+}
+
+img {
+    width: 150px;
+    max-width: 100%;
+}
+
+.details {
+    width: 100%;
+    text-align: center;
+}
+
+.solution {
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 1px 0px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #666666;
+    font-weight: 500;
+}
+
+h4 {
+    margin: 1px 0px;
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.pagelayer-image {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.imgtwo {
+    width: 1150px !important;
+}
+
+.fas {
+    font-weight: 900;
+    font-family: 'Font Awesome 5 free';
+    display: inline-block;
+    font-style: normal;
+}
+
+.icon {
+    background-color: #670090;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.box-num {
+    background-image: url(https://omusystems.com/wp-content/uploads/2022/09/counter-bg-scaled.jpg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+    margin-top: 350px;
+    padding: 100px 0px;
+}
+
+.overlaytwo {
+    opacity: 0.5 !important;
+}
+
+.htwo {
+    color: #ffffff;
+}
+
+.striptwo {
+    border-top-style: solid;
+    border-top-color: #ffffff;
+    border-top-width: 3px;
+    width: 10%;
+    display: inline-block;
+}
+
+.col-3 {
+    max-width: 100%;
+    width: 25%;
+}
+
+.col-pad-2 {
+    padding: 10px;
+    width: 100%;
+}
+
+.holder {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.two {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500 !important;
+}
+
+.inline-p {
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    box-shadow: 1px 1px 10px 4px #ededed;
+}
+
+.details-2 {
+    width: 100%;
+    text-align: left;
+}
+.mini-box-2 {
+    margin-top: 20px;
+}
+
+.mini-img {
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.mini-box-3 {
+    margin: 0px 0px 0px 5px;
+}
+
+.t-1 {
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.t-2 {
+    font-family: 'Poppins';
+    color: #670090;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mini-dis {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagelayer-footer {
+    margin-top: 260px;
+}
+
+.bg-foot {
+    background-color: #161616;
+    padding: 30px 0px 40px 0px;
+}
+
+.col1 {
+    display: flex;
+    width: 50%;
+}
+
+.omu {
+    color: #670090;
+    font-family: 'Nunito';
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding: 0px;
+}
+
+.p-foot {
+    color: #ffffff;
+    text-align: left;
+}
+
+.box-ficon {
+    width: 100%;
+    text-align: left;
+}
+
+.p-icon {
+    padding: 2px;
+    display: inline-block;
+}
+
+.b-icon {
+    background-color: #670090;
+    position: relative;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fab {
+    color: #ffffff;
+    font-family: 'Font Awesome 5 free';
+    display: inline-block;
+    font-style: normal;
+    position: absolute;
+    transform: translate(-50% , -50%);
+}
+
+.col2 {
+    display: flex;
+    width: 16.66667%;
+}
+
+.mrg {
+    margin-bottom: 25px;
+}
+
+h5 {
+    font-family: 'Nunito';
+    color: #670090;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 1px 0px 1px 0px;
+}
+
+.lnk {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+.ulf {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 2.5;
+}
+
+.lsp {
+    letter-spacing: 0;
+}
+
+.col3 {
+    width: 33.33%;
+    display: flex;
+}
+
+.olf {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    line-height: 3;
+    margin-bottom: 15px;
+}
+
+.number {
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.l-foot {
+    background-color: #670090;
+    color: #ffffff;
+}
+
+.cpy {
+    padding: 10px 0px 10px 0px;
+}
+
+.pagelayer-cpy {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 16px ;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
